@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 50px;
+    height: 50;
+    margin-right: 10px;
+  }
+
+  
+  .company-name {
+    font-size: 20px;
+    color:#522467;
+    font-family: bold;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #522467;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: #ccc;
+  }
+  
