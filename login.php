@@ -52,6 +52,18 @@
       <li><a href="cadastro.php">Não tem uma conta? Cadastre-se.</a></li> 
     </form>
   </div>
+
+
+  <div class='rodape'>
+    <footer>
+        <p>NutriAção</p>
+        <nav>
+            <a href="#">Termos de Serviço |</a>
+            <a href="#">Política de Privacidade |</a>
+            <a href="#">Contato</a>
+        </nav>
+    </footer>
+</div>
 </head>
 </html>
 

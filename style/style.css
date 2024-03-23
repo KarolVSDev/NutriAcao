@@ -5,11 +5,25 @@
     background-color: #ffffff;
     padding: 10px 20px;
   }
+  .buttons{
+   text-align: center;
+  }
+  .btn-primary{
+    background-color: #712584;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .carousel-inner{
+    height: 800px;
+  }
    
  .title{
   display: flex;
   font-size: 'bold';
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center;
+  color:#522467; /* Centraliza o conteúdo horizontalmente */
   }
 
   .logo-container {
@@ -95,5 +109,25 @@
   text-decoration: none;
   color: #007bff;
   }
+  .rodape{
+    text-align: center;
+    align-items: center;
+    background-color: #712584;
+    margin: 0px;
+    padding: 60px;
 
+  }
+  .rodape p{
+    color:white;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+  .rodape a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 px;
+  }
+  
   

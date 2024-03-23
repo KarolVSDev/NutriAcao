@@ -21,6 +21,18 @@
   <div>
     <h1>Olá</h1>
   </div>
+
+
+  <div class='rodape'>
+    <footer>
+        <p>NutriAção</p>
+        <nav>
+            <a href="#">Termos de Serviço |</a>
+            <a href="#">Política de Privacidade |</a>
+            <a href="#">Contato</a>
+        </nav>
+    </footer>
+</div>
 </head>
 </html>
   
