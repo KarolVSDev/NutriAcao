@@ -3,11 +3,11 @@
  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NutriAcao</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
 
 <div class="navbar">
     <div class="logo-container">
-      <img src="logo.jpeg" alt="Logo" class="logo-img">
+      <img src="assets/logo.jpeg" alt="Logo" class="logo-img">
       <span class="company-name">NutriAção</span>
       
     </div>
@@ -49,6 +49,7 @@
       <input type="text" name="nome" placeholder="nome">
       <input type="password" name="senha" placeholder="Senha">
       <input type="submit" name="btn-login">
+      <li><a href="cadastro.php">Não tem uma conta? Cadastre-se.</a></li> 
     </form>
   </div>
 </head>

@@ -8,7 +8,7 @@
 
 <div class="navbar">
     <div class="logo-container">
-      <img src="logo.jpeg" alt="Logo" class="logo-img">
+      <img src="assets/logo.jpeg" alt="Logo" class="logo-img">
       <span class="company-name">NutriAção</span>
       
     </div>
@@ -21,6 +21,6 @@
   </div>
 </head>
 </html>
-
+  
 
   

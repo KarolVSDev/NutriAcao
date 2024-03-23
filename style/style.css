@@ -16,7 +16,6 @@
     height: 50;
     margin-right: 10px;
   }
-
   
   .company-name {
     font-size: 20px;
@@ -48,4 +47,48 @@
   .nav-links li a:hover {
     color: #ccc;
   }
+  /* Estilo para o formulário de login */
+  .box-login {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center; /* Alinha o conteúdo ao centro */
+  }
+
+  .box-login h2 {
+  margin-bottom: 20px;
+  }
+
+  .box-login input[type="text"],
+  .box-login input[type="password"],
+  .box-login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  }
+
+  .box-login input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  }
+
+  .box-login input[type="submit"]:hover {
+  background-color: #0056b3;
+  }
+
+/* Estilo para o link de cadastro */
+  .box-login a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  }
+
   
