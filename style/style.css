@@ -5,7 +5,13 @@
     background-color: #ffffff;
     padding: 10px 20px;
   }
-  
+   
+ .title{
+  display: flex;
+  font-size: 'bold';
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  }
+
   .logo-container {
     display: flex;
     align-items: center;
@@ -16,7 +22,6 @@
     height: 50;
     margin-right: 10px;
   }
-  
   .company-name {
     font-size: 20px;
     color:#522467;
