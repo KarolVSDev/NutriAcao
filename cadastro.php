@@ -12,12 +12,6 @@
       <span class="company-name">NutriAção</span>
       
     </div>
-    <ul class="nav-links">
-      <li><a href="home.php">Home</a></li>
-      <li><a href="quem-somos.php">Quem Somos</a></li>
-      <li><a href="educa.php">Educa</a></li>
-      <li><a href="junte-se.php">Junte-se a Nós</a></li>
-    </ul>
   </div>
   <div class="box-login">
         <form method='post'>
@@ -40,9 +34,7 @@
                             // Email não existe, então pode prosseguir com o cadastro
                             $sql_insert = MySql::conectar()->prepare('INSERT INTO usuarios (nome,email, senha) VALUES (?,?, ?)');
                             $sql_insert->execute(array($nome, $email, $senha));
-
-                            echo 'Cadastro realizado com sucesso!';
-                            header('Location: educa.php');
+                            header('Location: login.php');
                             exit();
                         } else {
                             echo 'Este email já está cadastrado. Por favor, escolha outro.';
@@ -59,16 +51,6 @@
         </form>
     </div>
 
-    <div class='rodape'>
-    <footer>
-        <p>NutriAção</p>
-        <nav>
-            <a href="#">Termos de Serviço |</a>
-            <a href="#">Política de Privacidade |</a>
-            <a href="#">Contato</a>
-        </nav>
-    </footer>
-</div>
 </head>
 </html>
   

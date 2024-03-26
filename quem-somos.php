@@ -14,7 +14,7 @@
     <ul class="nav-links">
       <li><a href="home.php">Home</a></li>
       <li><a href="quem-somos.php">Quem Somos</a></li>
-      <li><a href="educa.php">Educa</a></li>
+      <li><a href="educa_noticias.php">Educa</a></li>
       <li><a href="junte-se.php">Junte-se a Nós</a></li>
     </ul>
   </div>
