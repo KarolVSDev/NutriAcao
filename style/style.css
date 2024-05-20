@@ -1,132 +1,183 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 10px 20px;
-  }
-  .buttons{
-   text-align: center;
-  }
-  .btn-primary{
-    background-color: #712584;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 10px;
-  }
-  .carousel-inner{
-    height: 800px;
-  }
- .title{
   display: flex;
-  font-size: 'bold';
-  justify-content: center;
-  color:#522467; /* Centraliza o conteúdo horizontalmente */
-  }
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+#exclusiv{
+background-color:#F2DAF8;
+color: #712584;
+margin: 20px 300px 20px 300px;
+border-radius: 30px;
+}
+#exclusiv p{
+text-align: center;
+align-items: center;
+font-size:30px;
+margin: 1px 20px;
+}
+#exclusiv h2{
+font-size:40px;
+margin: 20px;
+padding: 10px 20px;
+text-align: center;
+align-items: center;
 
-  .logo-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-img {
-    width: 50px;
-    height: 50;
-    margin-right: 10px;
-  }
-  .company-name {
-    font-size: 20px;
-    color:#522467;
-    font-family: bold;
-  }
-  
-  .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-left: 20px;
-  }
-  
-  .nav-links li:first-child {
-    margin-left: 0;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: #522467;
-    font-weight: bold;
-  }
-  
-  .nav-links li a:hover {
-    color: #ccc;
-  }
-  /* Estilo para o formulário de login */
-  .box-login {
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  text-align: center; /* Alinha o conteúdo ao centro */
-  }
+}
 
-  .box-login h2 {
-  margin-bottom: 20px;
-  }
+.buttons{
+ text-align: center;
+}
+.btn-primary{
+  background-color: #712584;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.carousel-inner{
+  height: 800px;
+}
+.title{
+display: flex;
+font-size: 'bold';
+justify-content: center;
+color:#522467; /* Centraliza o conteúdo horizontalmente */
+}
 
-  .box-login input[type="text"],
-  .box-login input[type="password"],
-  .box-login input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
 
-  .box-login input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  cursor: pointer;
-  }
+.logo-img {
+  width: 50px;
+  height: 50;
+  margin-right: 10px;
+}
+.company-name {
+  font-size: 20px;
+  color:#522467;
+}
 
-  .box-login input[type="submit"]:hover {
-  background-color: #0056b3;
-  }
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #522467;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ccc;
+}
+/* Estilo para o formulário de login */
+.box-login {
+width: 300px;
+margin: 50px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #f9f9f9;
+text-align: center; /* Alinha o conteúdo ao centro */
+}
+
+.box-login h2 {
+margin-bottom: 20px;
+}
+
+.box-login input[type="text"],
+.box-login input[type="password"],
+.box-login input[type="submit"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.box-login input[type="submit"] {
+background-color: #007bff;
+color: #fff;
+cursor: pointer;
+}
+
+.box-login input[type="submit"]:hover {
+background-color: #0056b3;
+}
 
 /* Estilo para o link de cadastro */
-  .box-login a {
-  display: block;
-  margin-top: 10px;
+.box-login a {
+display: block;
+margin-top: 10px;
+text-decoration: none;
+color: #007bff;
+}
+
+
+.rodape{
+  background-color: #712584;
+  margin: 0px;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+  
+}
+.div1{
+  display: inline-block;
+  float:inline-start;
+}
+.div2{
+  display: inline-block;
+}
+.div3{
+  display: inline-block;
+  float:inline-end;
+}
+.card{
+  align-items: center;
+}
+.rodape a{
+  color: #ffffff8d;
   text-decoration: none;
-  color: #007bff;
-  }
-  .rodape{
-    text-align: center;
-    align-items: center;
-    background-color: #712584;
-    margin: 0px;
-    padding: 60px;
+  margin: 0px;
+  font-size: 20px;
+}
 
-  }
-  .rodape p{
-    color:white;
-    margin: 20px;
-    font-weight: bold;
-    font-size: 30px;
-
-  }
-  .rodape a{
-    color: #fff;
-    text-decoration: none;
-    margin: 0 px;
-  }
-  
-  
+.rodape p{
+  color:white;
+  font-weight:15px;
+  font-size: 25px;
+}
+.rodape2{
+  align-items: center;
+  text-align:center;
+  background-color: #085E2E;
+  color: #ffffff96;
+  margin: 0px;
+  padding: 5px;
+}
+.container {
+  text-align: center;
+  color: #381a40;
+  margin: 5px;
+}
+.card{
+margin: 5px;
+padding: 20px;
+}

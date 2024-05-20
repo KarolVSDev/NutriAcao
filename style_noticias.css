@@ -1,254 +1,254 @@
 
 .navbar {
 
-    display: flex;
-  
-    justify-content: space-between;
-  
-    align-items: center;
-  
-    background-color: #ffffff;
-  
-    padding: 10px 20px;
-  
-  }
-  
-  
-  .buttons{
-  
-   text-align: center;
-  
-  }
-  
-  .buttons button:hover{
-  
-    color: #b290c2;
-  
-  }
-  
-  .btn-primary{
-  
-    background-color: #712584;
-  
-    border: none;
-  
-    padding: 10px 20px;
-  
-    margin: 10px;
-  
-    border-radius: 10px;
-  
-    width: 250px;
-  
-    height: 45px;
-  
-    text-align: center;
-  
-    margin-bottom: 3%;
-  
-  }
-  
-  .ion{
-  
-    align-items: center;
-  
-    text-align: center;
-  
-  }
-  
-  .buttonMais{
-  
-    text-align: center;
-  
-  }
-  
-  .txtBusca{
-  
-    float:left;
-  
-    background-color:transparent;
-  
-    padding-left:5px;
-  
-    font-style:italic;
-  
-    font-size:18px;
-  
-    border:none;
-  
-    height:32px;
-  
-    width:260px;
-  
-  }
-  
-  .holder{
-  
-    display: flex;
-  
-    justify-content: center;
-  
-  }
-  
-  .imgprincipal{
-  
-    width: 100%;
-  
-  }
-  
-  .imagem{
-  
-    margin: 10px;
-  
-    margin-left: 15%;
-  
-    margin-top: 3%;
-  
-    
-  
-    position: relative;
-  
-    text-align: center;
-  
-  }
-  
-  
-  .col{
-  
-    padding: 10px 15px;
-  
-    margin: 10px;
-  
-    margin-left: 150px;
-  
-    text-align: center;
-  
-    display: flex;
-  
-  }
-  
-  
-  .title{
-  
   display: flex;
-  
-  font-size: 'bold';
-  
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background-color: #ffffff;
+
+  padding: 10px 20px;
+
+}
+
+
+.buttons{
+
+ text-align: center;
+
+}
+
+.buttons button:hover{
+
+  color: #b290c2;
+
+}
+
+.btn-primary{
+
+  background-color: #712584;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  margin: 10px;
+
+  border-radius: 10px;
+
+  width: 250px;
+
+  height: 45px;
+
+  text-align: center;
+
+  margin-bottom: 3%;
+
+}
+
+.ion{
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.buttonMais{
+
+  text-align: center;
+
+}
+
+.txtBusca{
+
+  float:left;
+
+  background-color:transparent;
+
+  padding-left:5px;
+
+  font-style:italic;
+
+  font-size:18px;
+
+  border:none;
+
+  height:32px;
+
+  width:260px;
+
+}
+
+.holder{
+
+  display: flex;
+
   justify-content: center;
+
+}
+
+.imgprincipal{
+
+  width: 100%;
+
+}
+
+.imagem{
+
+  margin: 10px;
+
+  margin-left: 15%;
+
+  margin-top: 3%;
+
   
-  color:#522467; /* Centraliza o conteúdo horizontalmente */
-  
-  }
-  
-  
-  .logo-container {
-  
-    display: flex;
-  
-    align-items: center;
-  
-  }
-  
-  
-  .logo-img {
-  
-    width: 50px;
-  
-    height: 50;
-  
-    margin-right: 10px;
-  
-  }
-  
-  .company-name {
-  
-    font-size: 20px;
-  
-    color:#522467;
-  
-    font-style: normal;
-  
-  }
-  
-  
-  .nav-links {
-  
-    list-style-type: none;
-  
-    margin: 0;
-  
-    padding: 0;
-  
-    display: flex;
-  
-  }
-  
-  
-  .nav-links li {
-  
-    margin-left: 20px;
-  
-  }
-  
-  
-  .nav-links li:first-child {
-  
-    margin-left: 0;
-  
-  }
-  
-  
-  .nav-links li a {
-  
-    text-decoration: none;
-  
-    color: #522467;
-  
-    font-weight: bold;
-  
-  }
-  
-  
-  .nav-links li a:hover {
-  
-    color: #b290c2;
-  
-  }
-  
-  .rodape{
-  
-    text-align: center;
-  
-    align-items: center;
-  
-    background-color: #712584;
-  
-    margin: 0px;
-  
-    padding: 60px;
-  
-  
-  }
-  
-  .rodape p{
-  
-    color:white;
-  
-    margin: 20px;
-  
-    font-weight: bold;
-  
-    font-size: 30px;
-  
-  
-  }
-  
-  .rodape a{
-  
-    color: #fff;
-  
-    text-decoration: none;
-  
-    margin: 0 px;
-  
-  }
+
+  position: relative;
+
+  text-align: center;
+
+}
+
+
+.col{
+
+  padding: 10px 15px;
+
+  margin: 10px;
+
+  margin-left: 150px;
+
+  text-align: center;
+
+  display: flex;
+
+}
+
+
+.title{
+
+display: flex;
+
+font-size: 'bold';
+
+justify-content: center;
+
+color:#522467; /* Centraliza o conteúdo horizontalmente */
+
+}
+
+
+.logo-container {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+.logo-img {
+
+  width: 50px;
+
+  height: 50;
+
+  margin-right: 10px;
+
+}
+
+.company-name {
+
+  font-size: 20px;
+
+  color:#522467;
+
+  font-style: normal;
+
+}
+
+
+.nav-links {
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  display: flex;
+
+}
+
+
+.nav-links li {
+
+  margin-left: 20px;
+
+}
+
+
+.nav-links li:first-child {
+
+  margin-left: 0;
+
+}
+
+
+.nav-links li a {
+
+  text-decoration: none;
+
+  color: #522467;
+
+  font-weight: bold;
+
+}
+
+
+.nav-links li a:hover {
+
+  color: #b290c2;
+
+}
+
+.rodape{
+
+  text-align: center;
+
+  align-items: center;
+
+  background-color: #712584;
+
+  margin: 0px;
+
+  padding: 60px;
+
+
+}
+
+.rodape p{
+
+  color:white;
+
+  margin: 20px;
+
+  font-weight: bold;
+
+  font-size: 30px;
+
+
+}
+
+.rodape a{
+
+  color: #fff;
+
+  text-decoration: none;
+
+  margin: 0 px;
+
+}

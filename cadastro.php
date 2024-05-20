@@ -41,12 +41,14 @@
                         }
                     } else {
                         echo 'Por favor, preencha todos os campos.';
-                    }
+                    } 
+                    // abaixo são os campos para serem preenchidos durante o cadastro
                 }
             ?>
             <input type="text" name="nome" placeholder="Nome">
             <input type="text" name="email" placeholder="Email">
             <input type="password" name="senha" placeholder="Senha">
+            <input type="password" name="senha" placeholder="Confirmar Senha">
             <input type="submit" name="btn-cadastrar" value="Cadastrar">
         </form>
     </div>
