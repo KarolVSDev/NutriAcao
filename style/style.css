@@ -1,0 +1,132 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+  }
+  .buttons{
+   text-align: center;
+  }
+  .btn-primary{
+    background-color: #712584;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .carousel-inner{
+    height: 800px;
+  }
+ .title{
+  display: flex;
+  font-size: 'bold';
+  justify-content: center;
+  color:#522467; /* Centraliza o conteúdo horizontalmente */
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 50px;
+    height: 50;
+    margin-right: 10px;
+  }
+  .company-name {
+    font-size: 20px;
+    color:#522467;
+    font-family: bold;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #522467;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: #ccc;
+  }
+  /* Estilo para o formulário de login */
+  .box-login {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center; /* Alinha o conteúdo ao centro */
+  }
+
+  .box-login h2 {
+  margin-bottom: 20px;
+  }
+
+  .box-login input[type="text"],
+  .box-login input[type="password"],
+  .box-login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  }
+
+  .box-login input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  }
+
+  .box-login input[type="submit"]:hover {
+  background-color: #0056b3;
+  }
+
+/* Estilo para o link de cadastro */
+  .box-login a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  }
+  .rodape{
+    text-align: center;
+    align-items: center;
+    background-color: #712584;
+    margin: 0px;
+    padding: 60px;
+
+  }
+  .rodape p{
+    color:white;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+  .rodape a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 px;
+  }
+  
+  
