@@ -19,7 +19,7 @@
     // Iniciando a sessão
     session_start();
 
-    // Verificando se o formulário foi enviado
+    // Verificando se o formulário de login foi enviado
     if(isset($_POST['btn-login'])){
         $email = $_POST['email'];
         $senha = $_POST['senha'];
@@ -33,39 +33,45 @@
 
         // Verificando se o login foi bem sucedido
         if ($sql->rowCount() == 1) {
+            // Recuperando o nome do usuário
+            $usuario = $sql->fetch(PDO::FETCH_ASSOC);
+            $nomeUsuario = $usuario['nome'];
+        
             // Definindo as variáveis de sessão
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
             $_SESSION['valida'] = true;
-            
-            // Redirecionando para a página educapro.php
-            header('Location: educapro.php');
+        
+            // Redirecionando para a página educapro.php com o nome do usuário na URL
+            header("Location: educapro.php?nome=$nomeUsuario");
             exit(); // Terminando o script
         } else {
             // Exibindo mensagem de erro
             echo 'Usuário ou senha incorreta';
         }
     }
+
     // Adicionando funcionalidade de cadastro
     if(isset($_POST['btn-signup'])){
-      $email = $_POST['email'];
-      $senha = $_POST['senha'];
+        $nome = $_POST['nome']; // Adicionando o campo nome
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
 
-      require_once 'MySql.php';
+        require_once 'MySql.php';
 
-      // Verificando se o email já está em uso
-      $sql = MySql::conectar()->prepare('SELECT * FROM usuarios WHERE email = ?');
-      $sql->execute(array($email));
+        // Verificando se o email já está em uso
+        $sql = MySql::conectar()->prepare('SELECT * FROM usuarios WHERE email = ?');
+        $sql->execute(array($email));
 
-      if ($sql->rowCount() > 0) {
-          echo 'Este email já está em uso.';
-      } else {
-          // Inserindo novo usuário no banco de dados
-          $sql = MySql::conectar()->prepare('INSERT INTO usuarios (email, senha) VALUES (?, ?)');
-          $sql->execute(array($email, $senha));
+        if ($sql->rowCount() > 0) {
+            echo 'Este email já está em uso.';
+        } else {
+            // Inserindo novo usuário no banco de dados
+            $sql = MySql::conectar()->prepare('INSERT INTO usuarios (nome, email, senha) VALUES (?, ?, ?)');
+            $sql->execute(array($nome, $email, $senha));
 
-          echo 'Cadastro realizado com sucesso.';
-      }
+            echo 'Cadastro realizado com sucesso.';
+        }
     }
     ?>
     <form id="signin" method="POST" action="">
@@ -79,19 +85,21 @@
         </div>
         <button type="submit" name="btn-login">Login</button> 
     </form>
-    <form id="signup">
-        <input type="text" placeholder="Email" required /> 
-        <i class="fas fa-envelope iEmail"></i>
-        <input type="password" placeholder="Senha" required /> 
-        <i class="fas fa-lock iPassword"></i>
-        <input type="password" placeholder="Confirmar senha" required /> 
-        <i class="fas fa-lock iPassword2"></i>
-        <div class="divCheck">
-            <input type="checkbox" required />
-            <span>Termos</span>
-        </div>
-        <button type="submit">Cadastro</button>
-    </form>
+    <form id="signup" method="POST" action="">
+    <input type="text" name="nome" placeholder="Nome" required />
+    <input type="text" name="email" placeholder="Email" required />
+    <i class="fas fa-envelope iEmail"></i> <!-- Ícone de email -->
+    <input type="password" name="senha" placeholder="Senha" required />
+    <i class="fas fa-lock iPassword"></i> <!-- Ícone de cadeado -->
+    <div class="divCheck">
+        <input type="checkbox" required />
+        <span>Termos</span>
+    </div>
+    <button type="submit" name="btn-signup">Cadastro</button>
+</form>
+
+
+
 </div>
 <script src="index.js"></script>
 </body>
